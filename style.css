@@ -23,6 +23,7 @@ img {
 .half-width {
   width: 47%;
   padding: 2%;
+  margin: 30px 0 !important;
 }
 .one-third {
   width: 30%;
@@ -53,11 +54,6 @@ img {
 }
 
  /* Header Section Start*/
-
-
-header {
-  display: flex;
-}
 .hero-text {
   border-left: 4px solid #00909e;
   margin: 0 0;
@@ -91,7 +87,7 @@ header {
   text-align: center;
   margin-bottom: 0;
 }
-.mission-area {
+header, .mission-area, .develop-section, .community-section {
   display: flex;
 }
 .one {
@@ -111,3 +107,36 @@ header {
   width: 30%;
 }
 /* Mission Section End  */
+
+
+/* Develop Section Start  */
+.dev-text {
+  margin-left: 60px;
+}
+.dev-text h2, .community-section h2 {
+  margin: 0;
+}
+
+.community-text {
+  margin-right: 60px;
+}
+.community-image {
+  margin-left: 50px;
+}
+.global {
+  font-size: 45px;
+}
+/* Develop Section End  */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.footer-content h2{
+  margin: 0;
+}
+.footer-content {
+  text-align: center;
+  padding: 50px 0;
+}
